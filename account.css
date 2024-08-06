@@ -1,0 +1,209 @@
+/* Header Styles */
+.header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Align items vertically centered */
+}
+
+.logo {
+    margin-right: auto; /* Pushes the logo to the left */
+}
+
+.logo img {
+    max-width: 100px; /* Set the maximum width of the logo */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.navigation li {
+    margin: 0 10px;
+}
+
+.navigation a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+    color: #333;
+    text-decoration: none;
+}
+
+.navigation a:hover,
+.navigation a.active {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.navigation .btn {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.navigation .btn:hover {
+    background-color: #2980b9;
+}
+
+/* Account Section */
+.account-section {
+    padding: 40px 20px;
+}
+
+.account-section h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 600;
+    color: #3498db;
+    text-align: center;
+}
+
+.account-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.profile-picture {
+    margin-right: 20px;
+}
+
+.profile-picture img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-info h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+}
+
+.user-info p {
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.account-tabs {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tab-links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tab-links li {
+    margin: 0 10px;
+}
+
+.tab-links a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e9ecef;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+    color: #333;
+    text-decoration: none;
+}
+
+.tab-links a.active,
+.tab-links a:hover {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.tab-content .tab-pane {
+    display: none;
+}
+
+.tab-content .tab-pane.active {
+    display: block;
+}
+
+.job-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.job-card {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: left;
+}
+
+.job-card h3 {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #3498db;
+}
+
+.job-card p {
+    margin-bottom: 5px;
+    color: #666;
+}
+
+#account-settings-form .form-group {
+    margin-bottom: 20px;
+}
+
+#account-settings-form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #333;
+}
+
+#account-settings-form .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+}
+
+#account-settings-form .form-group input:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+.btn-primary {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+}
